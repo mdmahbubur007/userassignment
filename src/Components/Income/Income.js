@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Income = ({total}) => {
+const Income = ({total, totalAmount}) => {
     console.log()
     const salaryTotal = totalAmount.reduce((totals, item)=> totals+item.yearly_income, 0);
     return (

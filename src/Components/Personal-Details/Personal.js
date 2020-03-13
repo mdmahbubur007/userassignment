@@ -16,7 +16,7 @@ const Personal = (props) => {
                 <h5>Mobile # : {props.user.mobile}</h5>
                 <br/>
                 <h4>Yearly Income : {props.user.yearly_income}</h4>
-                <button><FontAwesomeIcon icon={faUser}/>  Add to Total Income</button>   
+                <button onClick={()=>props.addSalary(props.user)}><FontAwesomeIcon icon={faUser}/>  Add to Total Income</button>   
             </div>
             <div className="image">
                 <img src={props.user.img} alt=""/>               

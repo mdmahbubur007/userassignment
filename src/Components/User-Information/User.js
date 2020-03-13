@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './User.css';
 import Personal from '../Personal-Details/Personal';
 import Income from '../Income/Income';
