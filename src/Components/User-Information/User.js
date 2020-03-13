@@ -23,19 +23,27 @@ const User = (props) => {
         {name: "Md. Mahbubur Rahman", email: 'mdmahbubur007@gmail.com', mobile : '01913351901', yearly_income: 572, img:"https://images-na.ssl-images-amazon.com/images/I/513RoqwKmPL._AC_US218_.jpg",},
 
     ]
-   
+   const [totalSalary, setTotalSalary] = useState([]);
+   const addSalary = item =>{
+       var isExit = totalSalary.find(ele=> ele.id === item.id)
+       if(!isExit){
+           const updateTotal = [...totalSalary, item]
+           setTotalSalary(updateTotal)
+       }
+   }
     
     return (
         <div className="Users">
             <div className="personal">
                 {
                     Information.map(user=><Personal
+                    addSalary = {addSalary}
                         user={user}>    
                         </Personal>)
                 }
             </div>
             <div className="income">
-                <Income></Income>
+                <Income total ={Information} totalAmount ={totalSalary}></Income>
             </div>
         </div>
     );
