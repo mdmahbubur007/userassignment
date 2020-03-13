@@ -1,0 +1,25 @@
+.income{
+    padding: 5px;
+    background-color: lightsalmon;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 30%;
+    text-align: center;
+    font-weight: 600;
+}
+.income:hover{
+    padding: 5px;
+    background-color:tomato;
+    margin: 0 auto;
+    height: 150px;
+    border-radius: 28%;
+    text-align: center;
+    font-weight: 900;
+    transition: 1s;
+    
+}
+.income:hover h5{
+    transform: translateY(15px);
+    transition: 1s;
+    font-size: 14px;
+}

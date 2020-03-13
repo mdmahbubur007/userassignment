@@ -1,12 +1,13 @@
 import React from 'react';
+import './Income.css';
 
 const Income = ({total, totalAmount}) => {
     console.log()
     const salaryTotal = totalAmount.reduce((totals, item)=> totals+item.yearly_income, 0);
     return (
-        <div>
+        <div className="income">
             <p>Total Count : {total.length}</p>
-            <h3>Yearly-income total : {salaryTotal}</h3>
+            <h5>Total Yearly-income (in thou.) : {salaryTotal}.00</h5>
         </div>
     );
 };

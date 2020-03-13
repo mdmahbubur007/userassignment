@@ -9,8 +9,8 @@
 }
 .feature:hover{
     background-color: rgb(241, 213, 213);
-    width: 69%;
-    padding: 25px;
+    width: 65%;
+    padding: 20px;
     margin: 5px;
     border-radius: 15px;
     box-shadow: 8px 8px 10px lightsalmon;
@@ -49,16 +49,15 @@
 }
 .image{
     flex-direction: column;
-    width:27%;
-    padding: 30px;
-    margin: 5px;
+    width:32%;
+    padding: 45px;
+    margin-left: 5px;
     box-shadow: 5px 5px 10px lightgreen;
     border-radius: 100%;
-    
 }
 .image:hover{
     flex-direction: column;
-    width:23%;
+    width:30%;
     padding: 35px;
     margin: 5px;
     box-shadow: 8px 8px 15px rgb(107, 219, 107);

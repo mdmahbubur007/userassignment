@@ -11,12 +11,12 @@ const Personal = (props) => {
     return (
         <div className="product">
         <div className = "feature">  
-                <h3>{props.user.name}</h3>     
+                <h3>{props.user.id}. {props.user.name}</h3>     
                 <h5>Email : {props.user.email}</h5>
                 <h5>Mobile # : {props.user.mobile}</h5>
                 <br/>
                 <h4>Yearly Income : {props.user.yearly_income}</h4>
-                <button onClick={()=>props.addSalary(props.user)}><FontAwesomeIcon icon={faUser}/>  Add to Total Income</button>   
+                <button onMouseOver ={()=>props.addSalary(props.user)}><FontAwesomeIcon icon={faUser}/>  Add to Total Income</button>   
             </div>
             <div className="image">
                 <img src={props.user.img} alt=""/>               
