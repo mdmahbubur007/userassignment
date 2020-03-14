@@ -1,16 +1,16 @@
 .feature{
     background-color: whitesmoke;
     width: 65%;
-    padding: 20px;
-    margin: 5px;
-    border-radius: 10px;
+    padding: 30px;
+    margin: 7px;
+    border-radius: 15px;
     box-shadow: 5px 5px 10px lightgreen;
     
 }
 .feature:hover{
     background-color: rgb(241, 213, 213);
     width: 65%;
-    padding: 20px;
+    padding: 30px;
     margin: 5px;
     border-radius: 15px;
     box-shadow: 8px 8px 10px lightsalmon;
@@ -23,7 +23,7 @@
     margin-top: 5px;
 }
 .feature button{
-    background-color: rgb(241, 186, 44);
+    background-color: rgb(166, 241, 44);
     height: 35px;
     border-radius: 10px;
     width: 200px;
@@ -64,4 +64,9 @@
     border-radius: 20%;
     transition: 1s ease all;
     border: 5px double lightgreen;
+}
+.image img{
+    display: flex;
+    border-radius: 20%;
+    margin-left: 10px;
 }

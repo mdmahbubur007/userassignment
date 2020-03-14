@@ -15,7 +15,7 @@ const Personal = (props) => {
                 <h5>Email : {props.user.email}</h5>
                 <h5>Mobile # : {props.user.mobile}</h5>
                 <br/>
-                <h4>Yearly Income : {props.user.yearly_income}</h4>
+                <h4>Yearly Income (in thou.) : {props.user.yearly_income}.00</h4>
                 <button onMouseOver ={()=>props.addSalary(props.user)}><FontAwesomeIcon icon={faUser}/>  Add to Total Income</button>   
             </div>
             <div className="image">

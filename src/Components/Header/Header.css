@@ -4,6 +4,10 @@
 .header img{
     height: 150px;
 }
+.header:hover img{
+    height: 180px;
+    transition: .9s;
+}
 .header nav{
     background-color: aquamarine;
     font-size: 25px;
@@ -15,9 +19,14 @@
     padding: 5px;
 }
 nav a:hover{
-    background-color:tomato;
+    background-color:lightsalmon;
     border-radius: 12px;
     transition: .8s ease-in-out all;
     color: black;
     border: 5px double lightgreen;
+}
+.header nav:hover{
+    line-height: 60px;
+    background-color: tomato;
+    transition: .8s;
 }
