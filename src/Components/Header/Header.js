@@ -8,8 +8,8 @@ const Header = () => {
             <img src={logo} alt="Logo Here."/>
             <nav>
                 <a href="/Users">Users Information</a>
-                <a href="/Personal">Personal Details</a>
-                <a href="/Income">Income Information</a>
+                <a href="/PersonalFiles">Personal Details</a>
+                <a href="/IncomeInformation">Income Information</a>
             </nav>
         </div>
     );
